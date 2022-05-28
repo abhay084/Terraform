@@ -32,3 +32,9 @@ This command will initialize your terraform working directory containing terrafo
 
 #### terraform validate 
 It check our configuration file code and verify it syntactically, whether it is correct or not. 
+
+#### terraform plan 
+The terraform plan command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure. Also all the variable shown by this command can be used in our code to more optimize and make code more flixible.
+
+#### terraform apply
+This command will implement the code over the infrastrure and stup everything as stated.
