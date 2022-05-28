@@ -15,7 +15,7 @@ Terraform registry is list of all infrastructure service providers for which ter
 https://registry.terraform.io/
 
 ### Use Terraform Provider:
-to communicate with any service provider terraform will need a plugin that will behind the scene will communicate with service provider (in our case it is AWS cloud ), this plugins can be installed via code in this file : use_provider.tf
+to communicate with any service provider terraform will need a plugin that will behind the scene will communicate with service provider (in our case it is AWS cloud ), this plugins can be installed via code in this file : basics/use_provider.tf
 
 
 ## Working steps:
