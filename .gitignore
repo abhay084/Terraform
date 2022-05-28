@@ -5,4 +5,6 @@
 basics/terraform.tfstate  
 
 
-basics/terraform.tfstate.backup 
+basics/terraform.tfstate.backup
+
+.history/**
