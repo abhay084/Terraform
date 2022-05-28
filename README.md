@@ -38,3 +38,12 @@ The terraform plan command creates an execution plan, which lets you preview the
 
 #### terraform apply
 This command will implement the code over the infrastrure and stup everything as stated.
+
+## Tf code for AWS Services
+inside the folder /EC2 :
+1. code for launching ec2 instance via Tf.
+2. creating ebs volume
+3. using private key for instance
+4. connection and provisioning with launch instance (setup of httpd web server)
+5. attaching ebs volume with ec2 instance
+6. attaching security group to an instance
