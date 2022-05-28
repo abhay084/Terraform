@@ -17,7 +17,7 @@ provider "aws"{
 
 	region = "ap-south-1"
 	access_key = "my_aws_access_key"
-	secret_key = "my_aws_secret_key"
+	secret_key = "my_aws_secreta-key"
 
 	/* 
 	you can get your access key and secret key in aws from here:
