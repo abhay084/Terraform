@@ -47,3 +47,4 @@ inside the folder /EC2 :
 4. connection and provisioning with launch instance (setup of httpd web server)
 5. attaching ebs volume with ec2 instance
 6. attaching security group to an instance
+7. creating snapshot using volume
