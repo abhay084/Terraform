@@ -48,3 +48,4 @@ inside the folder /EC2 :
 5. attaching ebs volume with ec2 instance
 6. attaching security group to an instance
 7. creating snapshot using volume
+8. Creating AMI using Snapshots
