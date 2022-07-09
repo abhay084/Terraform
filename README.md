@@ -40,7 +40,7 @@ The terraform plan command creates an execution plan, which lets you preview the
 This command will implement the code over the infrastrure and stup everything as stated.
 
 ## Tf code for AWS Services
-inside the folder /EC2 :
+inside the folder /EC2  (Elasting Compute cloud service):
 1. code for launching ec2 instance via Tf.
 2. creating ebs volume
 3. using private key for instance
@@ -49,3 +49,7 @@ inside the folder /EC2 :
 6. attaching security group to an instance
 7. creating snapshot using volume
 8. Creating AMI using Snapshots
+9. Creating encrypted volume
+10. Encrypting existing volume via snapshot
+11. Encrypting unencrypted snapshot 
+12. Creating multi instance attachable volume
