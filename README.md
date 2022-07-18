@@ -40,6 +40,7 @@ The terraform plan command creates an execution plan, which lets you preview the
 This command will implement the code over the infrastrure and stup everything as stated.
 
 ## Tf code for AWS Services
+### EC2 services (IaC)
 inside the folder /EC2  (Elasting Compute cloud service):
 1. code for launching ec2 instance via Tf.
 2. creating ebs volume
@@ -53,3 +54,16 @@ inside the folder /EC2  (Elasting Compute cloud service):
 10. Encrypting existing volume via snapshot
 11. Encrypting unencrypted snapshot 
 12. Creating multi instance attachable volume
+
+### Storage IaC
+1. NFS
+2. S3
+
+### VPC
+1. create VPC
+2. create subnet for vpc
+3. create internet gateway
+4. launch ec2 instance with custom created vpc
+5. creating routing table
+6. associating routing table
+
